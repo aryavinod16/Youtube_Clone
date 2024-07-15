@@ -1,0 +1,254 @@
+*{
+    scroll-behavior: smooth;
+}
+.b1{
+    background-color: black;
+}
+hr{
+    color: gray;
+    
+}
+
+
+/*  MAIN HEADER  */
+.bdr{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    margin-right: 0;
+    margin-top: 0;
+   
+}
+.logo-container{
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo-container a{
+     text-decoration: none;
+     padding: 9px;
+}
+
+.logo-container a:hover{
+    width: fit-content;
+    border-radius: 50%;
+    
+    background-color: #383434;
+}
+.icons{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icons i{
+    font-size: 20px;
+    
+    color: white;
+}
+.image{
+    margin-left: 20px;
+}
+
+.search{
+    margin-left: 200px;
+
+}
+.search input{
+    height: 40px;
+    width: 550px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(90, 89, 89);
+    opacity: 0.5;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.search input::placeholder{
+  color: rgb(255, 255, 255);
+}
+.mic{
+    margin-left: 15px;
+
+}
+.mic i{
+    color: rgb(228, 218, 218);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(38, 35, 35);
+    border-radius: 50%;
+    font-size: 15px;
+}
+.create{
+    margin-left: 250px;
+}
+.create i{
+    color: white;
+    font-size: 20px;
+}
+.notification{
+    margin-left: 10px;
+}
+.notification i{
+    color: white;
+    font-size: 20px;
+}
+.user{
+    margin-left: 20px;
+}
+.user img{
+    
+   border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    /* background-color: rgb(104, 99, 99); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                       /*  MAIN HEADER END  */
+ 
+          /* SIDEBAR & VIDEO SECTION */
+
+.navbar {
+    display: flex;
+    /* overflow-x: auto; */
+    background-color: #000;
+    padding: 10px 0;
+   
+}
+
+.nav-button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav-button.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 3px;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(200, 196, 196);
+    border-radius: 10px;
+    
+}
+.side{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px 0 20px;
+}
+.scrollbox{
+    overflow: auto;
+    padding-right: 10px;
+    
+}
+.scrollbox-inner i{
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    
+}
+.scrollbox-inner a{
+    text-decoration: none;
+    color: white;
+}
+.scrollbox-inner h3{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+.scrollbox-inner a {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.scrollbox-inner a:hover {
+    background-color: rgb(53, 50, 50); /* Change background color on hover */
+    border-radius: 5px; /* Optional: Add border-radius for a rounded effect */
+}
+
+
+.col-3 .channel-logoo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    
+}
+.col-3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   
+   
+}
+
+ footer{
+    overflow: hidden;
+ }
+footer p{
+  
+    color: rgb(70, 69, 69);
+    padding: 15px 0 40px;
+    font-size: medium;
+}
+
+
+
+
+.thumbnail{
+     border-radius: 10px;
+    
+}
+.text-dim{
+    color: #aaaaaa;
+}
+.separator-circle{
+    font-size: 7px;
+   
+}
+.channel-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+       /* SIDEBAR & VIDEO SECTION */
+
+
+
+
